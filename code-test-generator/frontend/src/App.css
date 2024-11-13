@@ -1,0 +1,102 @@
+/* App.css */
+
+/* Body and background styling */
+
+body {
+    background-color: #f0f8ff;  /* Light blue background */
+    font-family: 'Arial', sans-serif;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering the main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    width: 800px;
+}
+
+/* Heading styles */
+h1 {
+    color: #ff00ff;  /* Blue color for the heading */
+    text-align: center;
+}
+
+/* Form styling */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid pink;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: palevioletred;  /* Blue background for button */
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button.btn.btn-primary{
+    background-color: palevioletred;  /* Blue background for button */
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button.btn.btn-primary:hover {
+    background-color: pink;  /* Darker blue when hovered */
+}
+
+/* Alert styles */
+.alert {
+    border-radius: 5px;
+}
+
+/* Spinner for loading state */
+.spinner-border {
+    color: black;
+    display: block; /* Make sure it’s displayed */
+}
+
+/* Add some spacing around the form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style for the test case output box */
+.test-cases-box {
+    max-height: 300px; /* Set a max height for the output */
+    overflow-y: auto;  /* Allow vertical scrolling */
+    background-color: #f8f9fa; /* Light background for output */
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Courier New', monospace; /* Use monospace font for code */
+    white-space: pre-wrap; /* Preserve white space in the code */
+    text-align: left; /* Align the code to the left */
+    font-size: 14px; /* Make the font size smaller */
+}
